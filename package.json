@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "react-dev": "webpack -d --watch",
-    "start": "nodemon --inspect server/server.js",
+    "start": "nodemon server/server.js",
     "build": "webpack --mode production"
   },
   "author": "Elderen & Vlad",
@@ -25,6 +25,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "mongoose": "^5.5.6",
     "nodemon": "^1.19.0",
     "parcel-bundler": "^1.12.3",
     "path": "^0.12.7"
