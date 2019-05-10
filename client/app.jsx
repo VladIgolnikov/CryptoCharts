@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Graph from './components/graph.jsx'
 import Axios from 'axios';
+
 
 class App extends React.Component {
   constructor(props) {
